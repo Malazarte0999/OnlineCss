@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+body{
+    background-color: rgb(56, 48, 77);
+}
+section{
+    margin:1% ;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imge{
+    width: 30% ;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    color: rgb(234, 234, 236);
+    background-color: rgb(11, 11, 15);
+    font-size: 15px;
+    border-radius: 50%;
+}
+figcaption{
+    margin-left: 6%;
+    margin-right: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+h1{
+    background-image: url("nature.jpg");
+    background-clip: text;
+    -webkit-background-clip:text;
+    color: transparent;
+    font-size: 500%;
+    font-weight: bold;
+    text-align: center;
+    font-family: Bodoni MT black; 
+    margin: 0%;
+}
+nav{
+    background-color: aliceblue;
+    padding: 20px;
+    margin:0%;
+    text-align: center;
+    transition: top 0.3s;
+}
+nav a{
+    color: rgb(27, 3, 3);
+    text-decoration: none;
+    margin: 10px 10px;
+    font-weight: bold;
+    font-size: large;
+}
+i{
+    color: rgb(6, 85, 55);
+    font-size: 150%;
+}
+h2{
+    color: rgb(173, 121, 23);
+    font-size: 40px;
+    text-align: start;
+}
+#about{
+    margin: 5%;
+    border: 3px solid rgb(208, 223, 208);
+    block-size: 470px;
+     background-color: blanchedalmond;
+    flex-shrink: inherit;
+    text-align: center;
+}
+#product{
+    border: 3px solid rgb(208, 223, 208);
+    block-size: 0%;
+    background-color: blanchedalmond;
+}
+#promos{
+    margin: 5%;
+    border: 3px solid rgb(208, 223, 208);
+    block-size: 0%;
+    background-color: blanchedalmond;
+}
+#contact{
+    color: aliceblue;
+    font-size: 120%;
+    font-weight: bold;
+}
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 120%;
+    font-weight: bold;
+     
+}
